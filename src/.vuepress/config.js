@@ -1,3 +1,5 @@
+const css = require('stylus-loader'); //処理されたurl（...）を持つCSS
+
 module.exports = {
     title: 'shimisu.net',
     description: 'shimisu.net site.',
@@ -17,5 +19,11 @@ module.exports = {
               ]
             }
         ]
+    },
+    module: {
+        loaders: [{
+            test: /\.styl$/,
+            loader: 'stylus-loader'
+        }]
     }
 }
