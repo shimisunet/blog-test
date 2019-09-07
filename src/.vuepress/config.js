@@ -1,10 +1,16 @@
 module.exports = {
     title: 'shimisu.net',
     description: 'shimisu.net site.',
-    lang: 'ja',
+    base: '/',
     dest: 'dist',
+    locales :{
+        '/': {
+            lang: 'ja'
+        }
+    },
     head: [
         [ 'link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]
+        [ 'meta', { charset: 'utf-8' }]
     ],
     themeConfig: {
         nav: [
