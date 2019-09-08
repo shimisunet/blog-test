@@ -1,14 +1,17 @@
 {
-    "name": "blog",
-    "version": "1.0.0",
-    "license": "MIT",
-    "devDependencies": {
-        "stylus": "^0.54.7",
-        "stylus-loader": "^3.0.2",
-        "vuepress": "^1.0.4"
-    },
-    "scripts": {
-        "dev": "vuepress dev src",
-        "build": "vuepress build src"
-    }
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "shimisu.net Web Site",
+  "main": "index.js",
+  "author": "shimisunet",
+  "license": "MIT",
+  "devDependencies": {
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vuepress": "^1.0.4"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
 }
