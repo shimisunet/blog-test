@@ -1,3 +1,1 @@
-# Hello, VuePress
-
-## これはh2
+Hello, VuePress
