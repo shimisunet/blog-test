@@ -1,13 +1,15 @@
 {
-    "name": "vuepress",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "devDependencies": {
-        "vuepress": "^1.0.4"
-      },
-    "scripts": {
-        "dev": "vuepress dev src",
-        "build": "vuepress build src"
-    }
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "shimisu.net Web Site",
+  "main": "index.js",
+  "author": "shimisunet",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.4"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
 }
