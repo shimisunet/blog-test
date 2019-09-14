@@ -84,12 +84,12 @@ export default {
       display block
       margin 3rem auto 1.5rem
     h1
-      font-size 3rem
+      font-size 2.5rem
     h1, .description, .action
       margin 1.8rem auto
     .description
       max-width 35rem
-      font-size 1.6rem
+      font-size 1.4rem
       line-height 1.3
       color lighten($textColor, 40%)
     .action-button
