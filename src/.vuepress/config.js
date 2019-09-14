@@ -25,6 +25,11 @@ module.exports = {
             }
         ]
     },
+    markdown: {
+        anchor: {
+            permalink: false
+        }
+    },
     module: {
         loaders: [{
             test: /\.styl$/,
