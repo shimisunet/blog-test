@@ -3,8 +3,8 @@ const css = require('stylus-loader'); //処理されたurl（...）を持つCSS
 module.exports = {
     title: 'shimisu.net',
     description: 'shimisu.net site.',
-    base: '/blog/',
     dest: 'docs',
+    base: '/blog-test',
     permalink: '/blog/:year/:month/:day/:slug',
     locales :{
         '/': {
