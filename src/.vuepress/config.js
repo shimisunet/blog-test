@@ -23,7 +23,8 @@ module.exports = {
                   { text: 'Twitter', link: 'https://www.twitter.com/shimisu_k' }
               ]
             }
-        ]
+        ],
+        lastUpdated: true
     },
     markdown: {
         anchor: {
