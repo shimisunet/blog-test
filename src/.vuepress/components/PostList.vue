@@ -6,10 +6,15 @@
           <h2 class="blog-title">
             {{ post.title }}
           </h2>
-          <p class="blog-description">
-            {{ post.frontmatter.date }}
+          <div class="blog-detail-wrapper">
+            <p class="blog-description">
             {{ post.frontmatter.description }}
           </p>
+          <p>
+            {{ post.frontmatter.date }}
+          </p>
+          </div>
+
         </section>
       </a>
     </article>
@@ -44,10 +49,15 @@ export default {
 
 .blog-title
   border-bottom none
-  margin 18px 0
+  margin 16px 0
   color navy 
 
-.blog-description
+.blog-detail-wrapper
+  display flex
   color #333
-  
+  justify-content space-between
+
+  @media screen and ( max-width: 720px )
+    display block
+
 </style>
