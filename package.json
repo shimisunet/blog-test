@@ -6,6 +6,8 @@
   "author": "shimisunet",
   "license": "MIT",
   "devDependencies": {
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
     "vuepress": "^1.0.4"
   },
   "scripts": {

@@ -1,8 +1,11 @@
+const css = require('stylus-loader'); //処理されたurl（...）を持つCSS
+
 module.exports = {
     title: 'shimisu.net',
     description: 'shimisu.net site.',
     base: '/',
     dest: 'dist',
+    permalink: '/blog/:year/:month/:day/:slug',
     locales :{
         '/': {
             lang: 'ja'
@@ -21,6 +24,18 @@ module.exports = {
                   { text: 'Twitter', link: 'https://www.twitter.com/shimisu_k' }
               ]
             }
-        ]
+        ],
+        lastUpdated: true
+    },
+    markdown: {
+        anchor: {
+            permalink: false
+        }
+    },
+    module: {
+        loaders: [{
+            test: /\.styl$/,
+            loader: 'stylus-loader'
+        }]
     }
 }
