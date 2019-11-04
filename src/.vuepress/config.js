@@ -21,7 +21,7 @@ module.exports = {
             { 
               text: 'Link',
               items: [
-                  { text: 'Twitter', link: 'https://www.twitter.com/shimisu_k' }
+                  { text: 'Twitter', link: 'https://www.twitter.com/' }
               ]
             }
         ],
