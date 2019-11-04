@@ -49,12 +49,15 @@ export default {
 
 .blog-title
   border-bottom none
-  margin 18px 0
+  margin 16px 0
   color navy 
 
 .blog-detail-wrapper
   display flex
   color #333
   justify-content space-between
+
+  @media screen and ( max-width: 720px )
+    display block
 
 </style>
