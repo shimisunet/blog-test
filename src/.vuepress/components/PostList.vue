@@ -7,6 +7,7 @@
             {{ post.title }}
           </h2>
           <p class="blog-description">
+            {{ post.frontmatter.date }}
             {{ post.frontmatter.description }}
           </p>
         </section>
