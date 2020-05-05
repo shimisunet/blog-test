@@ -4,8 +4,7 @@ module.exports = {
     title: 'shimisu.net',
     description: 'shimisu.net site.',
     dest: 'docs',
-    base: '/blog-test',
-    permalink: '/blog/:year/:month/:day/:slug',
+    base: '/blog-test/',
     locales :{
         '/': {
             lang: 'ja'
