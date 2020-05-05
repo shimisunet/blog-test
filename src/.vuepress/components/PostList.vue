@@ -26,7 +26,7 @@ export default {
     computed: {
         posts() {
             return this.$site.pages
-            .filter( post => post.path.startsWith('/blog/') )
+            .filter( post => post.path.startsWith('blog-test/blog/') )
             .sort( ( a, b ) => new Date( b.frontmatter.date ) - new Date( a.frontmatter.date ) );
             }
         }
